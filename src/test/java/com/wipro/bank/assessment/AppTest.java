@@ -17,7 +17,7 @@ public class AppTest {
 		
 	}
 
-	@Test
+	/*@Test
 	public void testGetAccountDetailsByID() {
 		App.accounts.add(new Account (1,"acc1",101.11));		
 		App.accounts.add(new Account (3,"acc3",303.33));
@@ -35,9 +35,9 @@ public class AppTest {
 		Account acc=new App().getAccountDetailsByID(3);
 		assertNotNull(acc);
 		assertNotEquals("patel",acc.getUserName());
-	}
+	}*/
 	
-	/*@Test
+	@Test
 	public void getAccountDetailsByBalance1(){
 		App.accounts.add(new Account (1,"acc1",101.11));		
 		App.accounts.add(new Account (3,"acc3",303.33));
@@ -79,5 +79,5 @@ public class AppTest {
 		assertNotNull("test1",actualAccounts);
 		assertEquals("test2",checkActualAccounts.size(),actualAccounts.size());
 	}
-*/
+
 }
