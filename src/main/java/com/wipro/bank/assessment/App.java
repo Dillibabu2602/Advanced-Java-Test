@@ -64,9 +64,9 @@ public class App
     	accounts.add(new Account(7,"acc7",701.11));
     	accounts.add(new Account(7,"acc8",801.99));
     	
-    	/*App temp = new App();
+    	App temp = new App();
     	temp.getAccountDetailsByID(1);
-    	temp.getAccountDetailsByBalance(501.77);*/
+    	temp.getAccountDetailsByBalance(501.77);
     	
        
     }
