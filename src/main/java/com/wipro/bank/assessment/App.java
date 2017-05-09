@@ -31,7 +31,7 @@ public class App
 		
 	}
 	
-	/*public List<Account> getAccountDetailsByBalance(double amount)
+	public List<Account> getAccountDetailsByBalance(double amount)
 	{
 		
 	
@@ -50,7 +50,7 @@ public class App
 		return emp2;
 		
 		
-	}*/
+	}
 	
     public static void main( String[] args )
     {
